@@ -16,21 +16,18 @@ stages:
   steps:
   -bash: echo build first job
 
-stages:
   -stage: DevDeploy
   jobs:
   -job: first job
   steps:
   -bash: echo build first job
 
-  stages:
   -stage: QADeploy
   jobs:
   -job: first job
   steps:
   -bash: echo build first job
 
-  stages:
   -stage: ProdDeploy
   jobs:
   -job: first job
